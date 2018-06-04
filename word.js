@@ -9,7 +9,7 @@ var Word = function (wordGuess) {
 
 
         }
-        console.log(tempWord);
+        //console.log(tempWord);
         return tempWord;
 
     }

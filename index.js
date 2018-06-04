@@ -17,7 +17,7 @@ function playTurn(){
             {
                 name: "guess",
                 type: "input",
-                message: "What letter would you like to guess?"
+                message: "Guess a letter of the last name of a Celtic's player?"
             }]).then(function(answer){
                 var currentGuess = answer.guess;
                 gameWord.checkGuess(currentGuess);
